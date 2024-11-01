@@ -24,16 +24,16 @@ In today’s competitive retail environment, understanding customer behavior and
 Retail businesses face challenges in identifying distinct customer segments for personalized marketing and predicting sales trends based on historical data. This project addresses these issues by applying machine learning techniques to enhance customer insights and sales forecasting.
 
 # Methodology :
-  # Data Collection:
+  # - Data Collection:
   Utilize datasets containing customer information and sales history, such as the "Online Retail" dataset from UCI or Kaggle.
  
-  # Data Preprocessing:
+  # - Data Preprocessing:
   Handle missing values through imputation or removal.
   Normalize numerical features to ensure consistency.
   Encode categorical variables using techniques like One-Hot Encoding.
   Data Visualization: Perform exploratory data analysis (EDA) to uncover patterns and insights using libraries like Matplotlib and Seaborn.
-
-# Model Creation:
+  
+  # - Model Creation:
 
 Implement clustering algorithms (e.g., K-Means) for customer segmentation.
 Use regression techniques (e.g., Linear Regression) to predict sales.
