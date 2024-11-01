@@ -37,33 +37,33 @@ Retail businesses face challenges in identifying distinct customer segments for 
    - Implement clustering algorithms (e.g., K-Means) for customer segmentation.
    - Use regression techniques (e.g., Linear Regression) to predict sales.
 
-  ### Model Testing:
+  ### :- Model Testing:
   
   Split the dataset into training and testing sets.
   Evaluate model performance using metrics like Mean Absolute Error (MAE) for regression and accuracy for classification.
 
 
-## Data Collection
+ ## Data Collection
 The dataset for this project can be obtained from:
 - UCI Machine Learning Repository - Online Retail Dataset
 - Kaggle - E-commerce Data
 
-## Data Preprocessing
+ ## Data Preprocessing
    Scripts for preprocessing the data can be found in the src/ directory, where missing values are handled, features are scaled, and categorical variables are encoded for modeling.
 
-# Model Creation and Testing
+ ## Model Creation and Testing
    The model creation and evaluation scripts are also located in the src/ directory. Each model is trained on the processed dataset and tested against unseen data to ensure robustness.
 
-# Installation
+## Installation
+To set up the project locally, clone the repository and install the required dependencies`:
 
- To set up the project locally, clone the repository and install the required dependencies`:
-
-
-```git clone <repository-url>
+```bash
+git clone <repository-url>
 cd Customer-Segmentation-Sales-Prediction
 pip install -r requirements.txt
+```
 
-# Usage
+## Usage
  
  To run the scripts for preprocessing and modeling, navigate to the src/ directory and execute`:
 
@@ -72,11 +72,12 @@ pip install -r requirements.txt
 python model_selection.py
 python train_models.py
 python testing.py
+``` 
 
-# License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-# Acknowledgments
+## Acknowledgments
 Thanks to the contributors of the datasets used in this project.
 Appreciation for the resources and tutorials that provided guidance throughout the project.
 
