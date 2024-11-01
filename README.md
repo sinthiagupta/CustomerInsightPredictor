@@ -4,8 +4,8 @@
 An ML-powered tool for segmenting retail customers and predicting sales trends. Using clustering and regression algorithms, this project helps businesses optimize marketing strategies, improve sales forecasts, and enhance customer engagement.
 
 # Table of Contents
- 1.Introduction
- 2. Problem Statement
+ - Introduction
+ - Problem Statement
 Methodology
 Data Collection
 Data Preprocessing
