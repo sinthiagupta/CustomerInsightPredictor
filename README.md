@@ -1,9 +1,9 @@
 # CustomerInsightPredictor
 
-# Project overview 
+## Project overview 
 An ML-powered tool for segmenting retail customers and predicting sales trends. Using clustering and regression algorithms, this project helps businesses optimize marketing strategies, improve sales forecasts, and enhance customer engagement.
 
-# Table of Contents
+## Table of Contents
  - Introduction
  - Problem Statement
  - Methodology
@@ -15,60 +15,60 @@ An ML-powered tool for segmenting retail customers and predicting sales trends. 
  - License
  - Acknowledgments
 
-# Introduction
+## Introduction
 
 In today’s competitive retail environment, understanding customer behavior and accurately forecasting sales are crucial. This project employs data-driven methodologies to segment customers and predict sales, ultimately helping businesses enhance their marketing effectiveness and improve resource allocation.
 
-# Problem Statement
+## Problem Statement
 
 Retail businesses face challenges in identifying distinct customer segments for personalized marketing and predicting sales trends based on historical data. This project addresses these issues by applying machine learning techniques to enhance customer insights and sales forecasting.
 
-# Methodology :
-  # - Data Collection:
+## Methodology :
+  ### :- Data Collection:
   Utilize datasets containing customer information and sales history, such as the "Online Retail" dataset from UCI or Kaggle.
  
-  # - Data Preprocessing:
+  ### :- Data Preprocessing:
    - Handle missing values through imputation or removal.
    - Normalize numerical features to ensure consistency.
    - Encode categorical variables using techniques like One-Hot Encoding.
    - Data Visualization: Perform exploratory data analysis (EDA) to uncover patterns and insights using libraries like Matplotlib and Seaborn.
   
-  # - Model Creation:
+  ### :- Model Creation:
+   - Implement clustering algorithms (e.g., K-Means) for customer segmentation.
+   - Use regression techniques (e.g., Linear Regression) to predict sales.
 
-Implement clustering algorithms (e.g., K-Means) for customer segmentation.
-Use regression techniques (e.g., Linear Regression) to predict sales.
-
-# Model Testing:
-
-Split the dataset into training and testing sets.
-Evaluate model performance using metrics like Mean Absolute Error (MAE) for regression and accuracy for classification.
+  ### Model Testing:
+  
+  Split the dataset into training and testing sets.
+  Evaluate model performance using metrics like Mean Absolute Error (MAE) for regression and accuracy for classification.
 
 
-# Data Collection
+## Data Collection
 The dataset for this project can be obtained from:
+- UCI Machine Learning Repository - Online Retail Dataset
+- Kaggle - E-commerce Data
 
-UCI Machine Learning Repository - Online Retail Dataset
-Kaggle - E-commerce Data
-
-# Data Preprocessing
-Scripts for preprocessing the data can be found in the src/ directory, where missing values are handled, features are scaled, and categorical variables are encoded for modeling.
+## Data Preprocessing
+   Scripts for preprocessing the data can be found in the src/ directory, where missing values are handled, features are scaled, and categorical variables are encoded for modeling.
 
 # Model Creation and Testing
-The model creation and evaluation scripts are also located in the src/ directory. Each model is trained on the processed dataset and tested against unseen data to ensure robustness.
+   The model creation and evaluation scripts are also located in the src/ directory. Each model is trained on the processed dataset and tested against unseen data to ensure robustness.
 
 # Installation
-To set up the project locally, clone the repository and install the required dependencies:
+
+ To set up the project locally, clone the repository and install the required dependencies`:
 
 
-git clone <repository-url>
+```git clone <repository-url>
 cd Customer-Segmentation-Sales-Prediction
 pip install -r requirements.txt
 
 # Usage
-To run the scripts for preprocessing and modeling, navigate to the src/ directory and execute:
+ 
+ To run the scripts for preprocessing and modeling, navigate to the src/ directory and execute`:
 
 
-python preprocessing.py
+```python preprocessing.py
 python model_selection.py
 python train_models.py
 python testing.py
