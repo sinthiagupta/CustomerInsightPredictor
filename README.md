@@ -28,10 +28,10 @@ Retail businesses face challenges in identifying distinct customer segments for 
   Utilize datasets containing customer information and sales history, such as the "Online Retail" dataset from UCI or Kaggle.
  
   # - Data Preprocessing:
-  Handle missing values through imputation or removal.
-  Normalize numerical features to ensure consistency.
-  Encode categorical variables using techniques like One-Hot Encoding.
-  Data Visualization: Perform exploratory data analysis (EDA) to uncover patterns and insights using libraries like Matplotlib and Seaborn.
+   - Handle missing values through imputation or removal.
+   - Normalize numerical features to ensure consistency.
+   - Encode categorical variables using techniques like One-Hot Encoding.
+   - Data Visualization: Perform exploratory data analysis (EDA) to uncover patterns and insights using libraries like Matplotlib and Seaborn.
   
   # - Model Creation:
 
