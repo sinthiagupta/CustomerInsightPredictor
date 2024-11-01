@@ -6,14 +6,14 @@ An ML-powered tool for segmenting retail customers and predicting sales trends. 
 # Table of Contents
  - Introduction
  - Problem Statement
-Methodology
-Data Collection
-Data Preprocessing
-Model Creation and Testing
-Installation
-Usage
-License
-Acknowledgments
+ - Methodology
+ - Data Collection
+ - Data Preprocessing
+ - Model Creation and Testing
+ - Installation
+ - Usage
+ - License
+ - Acknowledgments
 
 # Introduction
 
