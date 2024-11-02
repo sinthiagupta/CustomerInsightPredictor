@@ -1,6 +1,6 @@
 CustomerID,Gender_x,Age_x,Annual Income (k$)_x,Spending Score (1-100)_x,Gender_y,Age_y,Annual Income (k$)_y,Spending Score (1-100)_y,Sales Amount (k$),Purchase Frequency,Product Category,Date of Last Purchase
-1,NULL,19,15,39,Female,41,32,77,95.44,5,Home & Kitchen,2024-08-01 11:59:39.057169
-2,Male,NULL,15,81,Female,31,114,3,93.22,7,Electronics,2024-10-17 11:59:39.057179
+1,NaN,19,15,39,Female,41,32,77,95.44,5,Home & Kitchen,2024-08-01 11:59:39.057169
+2,Male,NaN,15,81,Female,31,114,3,93.22,7,Electronics,2024-10-17 11:59:39.057179
 3,Female,20,16,6,Male,26,30,51,45.56,1,Beauty,2024-03-14 11:59:39.057181
 4,Female,23,16,77,Male,45,53,10,42.52,4,Home & Kitchen,2024-06-19 11:59:39.057183
 5,Female,31,17,40,Female,43,68,90,20.45,1,Home & Kitchen,2024-07-27 11:59:39.057185
@@ -12,17 +12,17 @@ CustomerID,Gender_x,Age_x,Annual Income (k$)_x,Spending Score (1-100)_x,Gender_y
 11,Male,67,19,14,Female,42,93,54,22.66,8,Beauty,2024-10-19 11:59:39.057197
 12,Female,35,19,99,Female,60,63,95,61.56,11,Clothing,2024-05-06 11:59:39.057198
 13,Female,58,20,15,Male,63,68,19,27.21,12,Beauty,2024-10-22 11:59:39.057200
-14,Female,24,20,77,Female,60,82,76,49.06,11,Electronics,2024-08-03 11:59:39.057201
+14,Female,24,20,77,Female,60,82,76,49.06,NaN,Electronics,2024-08-03 11:59:39.057201
 15,Male,37,20,13,Female,27,79,55,74.47,11,Sports,2024-04-09 11:59:39.057203
 16,Male,22,20,79,Male,69,79,39,44.57,4,Clothing,2023-12-22 11:59:39.057204
 17,Female,35,21,35,Female,50,37,82,39.76,5,Sports,2023-11-14 11:59:39.057206
 18,Male,20,21,66,Female,22,50,46,68.32,6,Home & Kitchen,2023-12-03 11:59:39.057208
 19,Male,52,23,29,Female,55,112,11,71.87,11,Electronics,2024-10-26 11:59:39.057210
-20,Female,35,23,98,Female,69,46,32,23.32,3,Beauty,2024-05-20 11:59:39.057212
+20,Female,35,23,98,Female,69,NaN,32,23.32,3,Beauty,2024-05-20 11:59:39.057212
 21,Male,35,24,35,Male,38,60,57,93.99,5,Home & Kitchen,2024-03-13 11:59:39.057213
 22,Male,25,24,73,Female,53,66,81,23.28,1,Sports,2024-01-23 11:59:39.057215
 23,Female,46,25,5,Female,34,72,48,38.45,6,Beauty,2023-11-12 11:59:39.057216
-24,Male,31,25,73,Female,29,37,82,28.8,10,Home & Kitchen,2024-02-22 11:59:39.057219
+24,Male,31,25,73,Female,29,37,82,28.8,10,NaN,2024-02-22 11:59:39.057219
 25,Female,54,28,14,Male,55,34,68,26.81,9,Clothing,2024-03-03 11:59:39.057221
 26,Male,29,28,82,Male,18,91,8,41.43,1,Home & Kitchen,2024-09-21 11:59:39.057223
 27,Female,45,28,32,Male,60,83,49,98.51,12,Clothing,2024-10-06 11:59:39.057224
