@@ -1,0 +1,13 @@
+{
+  "segmentation_model": {
+    "algorithm": "KMeans",
+    "n_clusters": 8, 
+    "random_state": 42
+  },
+  "prediction_model": {
+    "algorithm": "LinearRegression",
+    "parameters": {
+      "fit_intercept": true
+    }
+  }
+}

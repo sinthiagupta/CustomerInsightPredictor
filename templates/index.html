@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Insight Predictor</title>
+</head>
+<body>
+    <h1>Customer Insight Predictor</h1>
+    
+    <!-- Segmentation Section -->
+    <form action="{{ url_for('segment') }}" method="post">
+        <button type="submit">Run Segmentation Model</button>
+    </form>
+    {% if segment_success %}
+        <p>Segmentation model has successfully processed and saved results!</p>
+    {% endif %}
+
+    <!-- Prediction Section -->
+    <form action="{{ url_for('predict') }}" method="post">
+        <button type="submit">Run Prediction Model</button>
+    </form>
+    {% if predict_success %}
+        <p>Prediction model has successfully processed and saved results!</p>
+        <h3>Model Metrics:</h3>
+        <ul>
+            <li>Mean Squared Error: {{ mse }}</li>
+            <li>Root Mean Squared Error: {{ rmse }}</li>
+            <li>R-squared: {{ r2 }}</li>
+        </ul>
+    {% endif %}
+</body>
+</html>
