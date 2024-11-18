@@ -33,3 +33,22 @@ if __name__ == "__main__":
     
     # Save segmented data to results folder for later analysis
     segmented_data.to_csv("C:/Users/DELL/OneDrive/Desktop/CustomerInsightPredictor/results/segmentation_results.csv", index=False)
+
+
+
+
+def run_segmentation(file_path):
+    """
+    Main function to run segmentation. Reads the data, applies KMeans clustering, 
+    and returns the segmented DataFrame.
+    """
+    # Load configuration
+    config = load_config()
+    
+    # Read dataset
+    data = pd.read_csv("C:/Users/DELL/OneDrive/Desktop/CustomerInsightPredictor/data/encoded_customer_sales_data.csv")
+    
+    # Train segmentation model
+    segmented_data, _ = train_segmentation_model(data, config)
+    
+    return segmented_data
