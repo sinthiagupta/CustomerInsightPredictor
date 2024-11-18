@@ -1,7 +1,9 @@
 {
+  "input_file": "C:/Users/DELL/OneDrive/Desktop/CustomerInsightPredictor/results/segmentation_results.csv",
+  "output_file": "C:/Users/DELL/OneDrive/Desktop/CustomerInsightPredictor/results/prediction_result.csv",
   "segmentation_model": {
     "algorithm": "KMeans",
-    "n_clusters": 8, 
+    "n_clusters": 8,
     "random_state": 42
   },
   "prediction_model": {
