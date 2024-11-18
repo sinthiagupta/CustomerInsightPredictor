@@ -28,6 +28,11 @@ def train_prediction_model(df, config):
     
     return y_test, predictions, model
 
+def run_prediction(df, config):
+    # This function will call the train_prediction_model and return predictions
+    y_test, predictions, model = train_prediction_model(df, config)
+    return y_test, predictions  # Return the actual and predicted values
+
 if __name__ == "__main__":
     config = load_config()["prediction_model"]
     data = pd.read_csv("C:/Users/DELL/OneDrive/Desktop/CustomerInsightPredictor/results/segmentation_results.csv")  # Load data with cluster labels
@@ -41,3 +46,4 @@ if __name__ == "__main__":
         results_df.to_csv("C:/Users/DELL/OneDrive/Desktop/CustomerInsightPredictor/results/predictions.csv", index=False)
     except KeyError as e:
         print(f"Error: {e}")
+
